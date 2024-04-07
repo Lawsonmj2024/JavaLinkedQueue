@@ -32,9 +32,9 @@ The display class will store a copy of the order queue in two arrays. Each array
 
 When an order is taken and stored in the Order class, the program will:
 
-0. Update the Display class arrays automatically,
-0. Sort them in descending order using quick sort algorithm,
-0. Output the contents to the console upon each entry of new data.
+1. Update the Display class arrays automatically,
+1. Sort them in descending order using quick sort algorithm,
+1. Output the contents to the console upon each entry of new data.
 
 ### Main class
 
