@@ -1,10 +1,10 @@
 # Java Linked Queue
 
-Michael Lawson
-Colorado State University, Global
-CSC400: Data Structures
-Prof. Russell Frith
-January 11, 2023
+Michael Lawson  
+Colorado State University, Global  
+CSC400: Data Structures  
+Prof. Russell Frith  
+January 11, 2023  
 
 ## Purpose
 Write a program that handles the order list for an online retailer.
