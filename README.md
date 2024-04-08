@@ -6,7 +6,7 @@ CSC400: Data Structures
 Prof. Russell Frith  
 January 11, 2023  
 
-## Purpose
+## Instructions
 Write a program that handles the order list for an online retailer.
 
 Program should contain a minimum of three classes:
@@ -17,7 +17,7 @@ Program should contain a minimum of three classes:
 
 ### Order class
 
-Order class uses a queue to hold the orders in the order they  were taken. The queue should contain the following:
+Order class uses a queue to hold the orders in the order they were taken. The queue should contain the following:
 
 - Customer last name,
 - Order number,
@@ -45,3 +45,17 @@ The user will be presented a menu for the following actions:
 - Add an order,
 - Remove an order,
 - Display the order list from the queue.
+
+## Solution
+
+Eight classes were organized into three packages:
+
+- main
+- model
+- ui
+
+The main package contains the Display, Order, and Main classes. To better partition the function of each class, an OrderDetails class is used to contain the order information, while the Order class functions as an abstraction for the LinkedQueue.
+
+The model package contains the classes that form the data structure of the Order queue: LinkedQueue, QueueInterface, and EmptyQueueException. The program specifications call for a queue data structure, and a LinkedQueue was used because it provides the necessary functions to operate a queue and can contain all the order information in an object.
+
+The ui package contains the Menu class. The Menu class contains some simple methods for the command line interface.
