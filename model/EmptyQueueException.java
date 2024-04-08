@@ -6,7 +6,7 @@ File: EmptyQueueException.java
 Custom exception used by the LinkedQueue.
 
 */
-package data;
+package model;
 
 /**Custom exception used in LinkedQueue when attempting to manipulate empty queue.
  * @author Michael Lawson

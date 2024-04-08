@@ -6,7 +6,7 @@ Project Name: Portfolio Project
 LinkedQueue data structure
 
 */
-package data;
+package model;
 
 /**LinkedQueue implements a Linked Object implementation of the QueueInterface
  * @author Michael Lawson

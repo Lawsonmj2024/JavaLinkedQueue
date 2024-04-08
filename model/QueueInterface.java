@@ -6,7 +6,7 @@ Project Name: Portfolio Project
 Interface for a linked queue.
 
 */
-package data;
+package model;
 
 /**Contains blueprint for queue methods
  * @author Michael Lawson

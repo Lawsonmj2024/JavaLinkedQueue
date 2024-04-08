@@ -1,7 +1,7 @@
 package main;
 
-import data.EmptyQueueException;
-import data.LinkedQueue;
+import model.EmptyQueueException;
+import model.LinkedQueue;
 
 /**Order class contains queue of orders and methods to interact with queue.
  * @author Michael Lawson
